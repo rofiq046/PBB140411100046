@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AINUR ROFIQ"
+        android:textColor="#D2527F"
+        android:textStyle="bold"
+        android:textSize="9pt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="140411100046"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="7pt" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Modul Activity"
+        android:textColor="#D2527F"
+        android:textStyle="bold"
+        android:textSize="7pt" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 1 : Pengenalan Lingkungan Android dan Struktur Data"
+                android:background="#81CFE0"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 2 : Aplikasi Android dengan Menggunakan Komponen Antarmuka, Huruf dan Warna"
+                android:background="#81CFE0"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 3 : Aplikasi Android dengan Layout dan Pendengar Event"
+                android:background="#81CFE0"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 4 : Aplikasi Android dengan List View"
+                android:background="#81CFE0"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 5 : "
+                android:background="#81CFE0"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 6 : "
+                android:background="#81CFE0"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 7 : "
+                android:background="#81CFE0"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 8 : "
+                android:background="#81CFE0"
+                android:layout_margin="2dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
