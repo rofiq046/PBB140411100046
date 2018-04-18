@@ -1,30 +1,17 @@
 package com.example.rofiq.praktikumpbb140411100046.Mod4;
 
 import android.app.ListActivity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.database.Cursor;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
 import com.example.rofiq.praktikumpbb140411100046.R;
 
 public class M4Hasil extends ListActivity {
 
-    @Override
-    public long getSelectedItemId() {
-        return super.getSelectedItemId();
-    }
-
-    @Override
-    public int getSelectedItemPosition() {
-        return super.getSelectedItemPosition();
-    }
-
-    ListView listView;
     Cursor cursor;
     private Button button;
 
@@ -44,9 +31,9 @@ public class M4Hasil extends ListActivity {
                 int[] to = {android.R.id.text1, android.R.id.text2};
                 SimpleCursorAdapter listadapter = new SimpleCursorAdapter(M4Hasil.this, android.R.layout.simple_list_item_2, cursor, from, to);
                 setListAdapter(listadapter);
-
-                listView = getListView();
-                listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+//
+//                listView = getListView();
+//                listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
             }
         });
     }
