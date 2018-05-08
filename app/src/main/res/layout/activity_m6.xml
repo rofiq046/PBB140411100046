@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="show Custom Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#81CFE0"
+        android:id="@+id/showCustomFragment" />
+
+    <Button
+        android:text="show Alert Dialog Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showCustomFragment"
+        android:layout_alignRight="@+id/showCustomFragment"
+        android:layout_alignEnd="@+id/showCustomFragment"
+        android:background="#81CFE0"
+        android:layout_marginTop="43dp"
+        android:id="@+id/showAlertDialogFragment"
+        android:layout_alignLeft="@+id/showCustomFragment"
+        android:layout_alignStart="@+id/showCustomFragment" />
+
+</RelativeLayout>

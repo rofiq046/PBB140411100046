@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -26,7 +26,11 @@
         <activity android:name=".Mod2.ContohXML" />
         <activity android:name=".Mod3.M3Proses" />
         <activity android:name=".Mod3.M3Hasil" />
-        <activity android:name=".Mod4.M4Hasil"></activity>
+        <activity android:name=".Mod4.M4Hasil" />
+        <activity android:name=".Mod5.M5Activity" />
+        <activity android:name=".Mod5.DrwingM5Activity" />
+        <activity android:name=".ACC.Kalkulator" />
+        <activity android:name=".Mod6.M6Activity"></activity>
     </application>
 
 </manifest>

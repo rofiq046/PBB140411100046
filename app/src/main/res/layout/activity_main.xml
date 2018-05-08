@@ -82,7 +82,7 @@
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Modul 5 : "
+                android:text="Modul 5 : Aplikasi Android dengan Fragman"
                 android:background="#81CFE0"
                 android:layout_margin="2dp" />
 
@@ -90,7 +90,7 @@
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Modul 6 : "
+                android:text="Modul 6 : Menampilkan Dialog dengan Dialog Fragman"
                 android:background="#81CFE0"
                 android:layout_margin="2dp" />
 
@@ -98,7 +98,7 @@
                 android:id="@+id/button7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Modul 7 : "
+                android:text="ACC"
                 android:background="#81CFE0"
                 android:layout_margin="2dp" />
 
